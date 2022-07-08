@@ -1,8 +1,12 @@
 import { User } from './components/User';
+import { SearchRepository } from './components/SearchRepository';
 
 function App() {
   return (
-    <User />
+    <>
+      <User />
+      <SearchRepository />
+    </>
   );
 }
 

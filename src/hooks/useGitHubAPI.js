@@ -19,7 +19,7 @@ export function useGitHubAPI(query) {
     }
     console.log('fetch data');
     fetchData();
-  }, []);
+  }, [query]);
 
   return data;
 }
